@@ -1,0 +1,37 @@
+{
+    "name": "basic_vite_front_end",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc && vite build",
+        "preview": "vite preview",
+        "eslint": "eslint --ext .ts,.vue,.js --fix",
+        "format": "prettier --ignore-path .gitignore --write \"**/*.+(html|vue|ts|js|json|cjs)\""
+    },
+    "dependencies": {
+        "vue": "^3.3.4"
+    },
+    "devDependencies": {
+        "@types/node": "^20.5.9",
+        "@typescript-eslint/eslint-plugin": "^6.6.0",
+        "@typescript-eslint/parser": "^6.6.0",
+        "@vitejs/plugin-vue": "^4.2.3",
+        "axios": "^1.5.0",
+        "eslint": "^8.48.0",
+        "eslint-plugin-vue": "^9.17.0",
+        "js-base64": "^3.7.5",
+        "prettier": "^3.0.3",
+        "sass": "^1.66.1",
+        "sass-loader": "^13.3.2",
+        "typescript": "^5.0.2",
+        "unplugin-auto-import": "^0.16.6",
+        "unplugin-vue-components": "^0.25.2",
+        "vite": "^4.4.5",
+        "vue-eslint-parser": "^9.3.1",
+        "vue-router": "^4.0.13",
+        "vue-tsc": "^1.8.5",
+        "vuex": "^4.0.2"
+    }
+}

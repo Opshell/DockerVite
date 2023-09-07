@@ -1,0 +1,13 @@
+version: '3'
+services:
+  node:
+    container_name: node_18_17_1
+    image: node:18.17.1.self
+    restart: always
+    tty: true
+    build: node
+    ports:
+      - "5173:5173"
+    volumes:
+      - ../../code:/var/www/html/viteDockerTest
+
